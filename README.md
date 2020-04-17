@@ -5,6 +5,6 @@ This is a docker build file to host the [speedtest](https://www.speedtest.net/ap
 
 # Use
 ```
-docker build -t speedtest/speedtestcli:latest .
-docker run speedtestcli:latest
+docker build -t speedtest/speedtestcli:latest ./Dockerfile
+docker run speedtestcli:latest speedtest -p no
 ```
